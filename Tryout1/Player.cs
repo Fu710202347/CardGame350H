@@ -14,7 +14,8 @@ namespace Cardgame
         {
            for(int i = 0; i < Player.Count; i++)
             {
-                Console.WriteLine(Player[i].Rank + " " + Player[i].Suit);
+                
+                Console.WriteLine( i+1 +": "+Player[i].Rank + " " + Player[i].Suit);
             }
         }
         
